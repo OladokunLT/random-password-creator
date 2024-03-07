@@ -1,11 +1,14 @@
-import React from "react"
+import React from "react";
 // import CounterApp from "./components/counter/ounterApp"
 import Youtube from "./Youtube";
-import CounterApp from "./components/counter/CounterApp"
-import { Card, BgColorChanger, PasswordGenerator } from "./components/projects/Projects";
+import CounterApp from "./components/counter/CounterApp";
+import {
+  Card,
+  BgColorChanger,
+  PasswordGenerator,
+} from "./components/projects/Projects";
 // import from "./components/props/Props";
-import "./index.css"
-
+import "./index.css";
 
 function App() {
   // const username = "Tunde"s
@@ -17,24 +20,21 @@ function App() {
     "Lukman",  
   )
   */
- 
- 
+
   return (
     <>
       {/* counter app */}
-      <CounterApp />
-      <br /> <hr /> <br />
+      {/* <CounterApp /> */}
+      {/* <br /> <hr /> <br /> */}
       {/* <Card username="taye" country="Nigeria"/> */}
-      <Card username="Lukman" profileImg="https://cdn.pixabay.com/photo/2017/10/17/16/10/fantasy-2861107_1280.jpg"/>
-      <br /><hr /> <br />
-      <BgColorChanger />
-      <br /><hr /> <br />
+      {/* <Card username="Lukman" profileImg="https://cdn.pixabay.com/photo/2017/10/17/16/10/fantasy-2861107_1280.jpg"/> */}
+      {/* <br /><hr /> <br /> */}
+      {/* <BgColorChanger /> */}
 
       <PasswordGenerator />
-      <br /><hr /> <br />
-
+      {/* <br /><hr /> <br /> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
