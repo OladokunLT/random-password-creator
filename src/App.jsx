@@ -7,8 +7,10 @@ import {
   BgColorChanger,
   PasswordGenerator,
 } from "./components/projects/Projects";
+
 // import from "./components/props/Props";
 import "./index.css";
+import PasswordCreator from "./components/random-password-generator/PasswordCreator";
 
 function App() {
   // const username = "Tunde"s
@@ -28,11 +30,14 @@ function App() {
       {/* <br /> <hr /> <br /> */}
       {/* <Card username="taye" country="Nigeria"/> */}
       {/* <Card username="Lukman" profileImg="https://cdn.pixabay.com/photo/2017/10/17/16/10/fantasy-2861107_1280.jpg"/> */}
+
       {/* <br /><hr /> <br /> */}
       {/* <BgColorChanger /> */}
 
-      <PasswordGenerator />
+      {/* <PasswordGenerator /> */}
       {/* <br /><hr /> <br /> */}
+
+      <PasswordCreator />
     </>
   );
 }
