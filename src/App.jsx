@@ -11,6 +11,7 @@ import {
 // import from "./components/props/Props";
 import "./index.css";
 import PasswordCreator from "./components/random-password-generator/PasswordCreator";
+import CurrencyConverter from "./components/currency-converter-app/CurrencyConverter";
 
 function App() {
   // const username = "Tunde"s
@@ -37,7 +38,9 @@ function App() {
       {/* <PasswordGenerator /> */}
       {/* <br /><hr /> <br /> */}
 
-      <PasswordCreator />
+      {/* <PasswordCreator /> */}
+
+      <CurrencyConverter />
     </>
   );
 }
